@@ -14,7 +14,7 @@ public class EmailService implements IEmailService {
     private final JavaMailSender mailSender;
 //    private String verificationLinkPage = "http://localhost:8080/custom-florist/api/v1/users/verify";
     private String verificationLinkPage = "https://custom-florist.onrender.com/custom-florist/api/v1/users/verify";
-    private String emailSendFrom = "nam022831@gmail.com";
+    private String emailSendFrom = "a@gmail.com";
 
     @Override
     public void sendVerificationEmail(User user) throws Exception {
